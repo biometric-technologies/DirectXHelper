@@ -1,0 +1,50 @@
+# CLion specific
+.idea/
+*.iml
+
+# CMake files
+cmake-build-*/
+
+# Build output
+build/
+bin/
+lib/
+
+# Dependency directories
+deps/
+
+# Object files, archives, shared libraries, compiled files
+*.o
+*.a
+*.so
+*.ko
+*.obj
+*.elf
+*.lo
+*.slo
+*.exe
+*.dll
+*.dylib
+*.bc
+*.ilk
+*.map
+*.exp
+*.pdb
+*.lib
+*.app
+
+# JetBrains template patterns
+misc.xml
+modules.xml
+workspace.xml
+tasks.xml
+*.ipr
+*.iws
+
+# User-specific files
+*.user
+*.orig
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
